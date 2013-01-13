@@ -1,0 +1,12 @@
+name = OFC Text
+description = Text formats etc
+core = 7.x
+package = One Fewer Car
+version = 7.x-0.1
+project = ofc_text
+dependencies[] = features
+dependencies[] = filter
+dependencies[] = markdown
+features[features_api][] = api:1
+features[filter][] = 3
+features[user_permission][] = use text format 3
